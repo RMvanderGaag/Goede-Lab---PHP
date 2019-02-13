@@ -14,7 +14,10 @@
 	<?php 
 		echo "<h1>hello world!</h1>"; 
 		echo "<h1>" . HW . "</h1>";
-		
+		$var = "Learning PHP";
+		echo "<h1>" . $var . "</h1>";
+		$var = "hello world!";
+		echo "<h1>" . $var . "</h1>";
 		echo "<h1>" . $hello . " " . $world . "</h1>";
 		echo "<h1>" . implode(" ", $hwAr) . "</h1>";
 	?>
