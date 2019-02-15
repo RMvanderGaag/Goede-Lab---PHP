@@ -2,7 +2,7 @@
 	define("HW", "hello world!");
 	$hello = "hello";
 	$world = "world!";
-	$hwAr = ["hello", "world!"];
+	$hwAr = implode(["hello ", "world!"]);
 ?>
 
 <html>
@@ -19,7 +19,7 @@
 		$var = "hello world!";
 		echo "<h1>" . $var . "</h1>";
 		echo "<h1>" . $hello . " " . $world . "</h1>";
-		echo "<h1>" . implode(" ", $hwAr) . "</h1>";
+		echo "<h1>" . $hwAr . "</h1>";
 	?>
 </body>
 </html>

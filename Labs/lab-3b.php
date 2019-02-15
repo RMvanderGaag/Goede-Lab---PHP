@@ -1,9 +1,9 @@
 <?php 
 	$ar = [3, 5, 8, 12];
 
-	function Som($cijfer, $Cstring){ 
+	function Som($cijfer){ 
 		for ($i=1; $i < 11; $i++) { 
-			echo $i . " * " . $Cstring . " = " . $cijfer * $i . "<br>";
+			echo $i . " * " . $cijfer . " = " . $cijfer * $i . "<br>";
 		}
 	}
 
@@ -14,7 +14,7 @@
 		echo "<br>";
 	}
 
-	Som(6, "6");
+	Som(6);
 ?>
 
 <html>

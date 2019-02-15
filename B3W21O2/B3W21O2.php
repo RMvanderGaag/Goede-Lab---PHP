@@ -31,6 +31,11 @@
 		a:hover{
 			text-decoration: underline;
 		}
+		p{
+			line-height: 35px;
+			margin: 0;
+			padding: 0;
+		}
 
 	</style>
 </head>
@@ -44,10 +49,8 @@
 		</header>
 
 		<footer>
-			<?php include "footer.php" ?>
+			<p><?php include "footer.php" ?></p>
 		</footer>
 	</center>
-
-
 </body>
 </html>
